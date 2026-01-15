@@ -17,4 +17,4 @@ Stable: [release v1](https://github.com/aiv-tmc/parrot-shell)
 `$ cd ~/Download/parrot-shell`
 
 3. Start making the program:
-`$ sudo make all`
+`$ sudo make install`
