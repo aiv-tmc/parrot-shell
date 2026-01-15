@@ -1080,7 +1080,7 @@ void execute_command(const char *cmd, HistoryBuffer *history, InputState *input)
     /* Check for interactive applications */
     int is_interactive = 0;
     const char* interactive_commands[] = {
-        "vim", "nano", "htop", "top", "sudo", "ssh", "man", "less", "more", NULL
+        "vim", "nvim", "nano", "ranger", "parrot", "htop", "top", "sudo", "ssh", "man", "less", "more", NULL
     };
     
     for (int i = 0; interactive_commands[i] != NULL; i++) {
